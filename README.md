@@ -1,9 +1,7 @@
 <div>
 <img src="https://raw.githubusercontent.com/botallen/plugin.video.jiotv/main/resources/icon.png" height="60" width="60">
 
-## JioTV Free HD Streaming
-
-> Available for - Browser / Android / Android TV
+## JioTV 
 
 <img src="https://img.shields.io/badge/Status-Working-green"/>
 
@@ -19,7 +17,7 @@
 - Open terminal and run the code given below -
 
 ```sh
-docker run -d -p 3000:3000 nrjdalal/jiotv
+docker run -d -p 3000:3000 jainamsoni611/JioTv-Nodejs
 ```
 
 - Just visit http://localhost:3000
@@ -28,7 +26,7 @@ docker run -d -p 3000:3000 nrjdalal/jiotv
 <!-- <br> -->
 
 - Install [Node.js](https://nodejs.org/en/download/)
-- [Download](https://github.com/nrjdalal/JioTV-Next/archive/main.zip) and extract the zip
+- [Download] and extract the zip
 - Open terminal in the extracted folder and run the code given below -
 
 ```sh
@@ -36,13 +34,5 @@ npm i && npm run build && npm start
 ```
 
 - Just visit http://localhost:3000
-- Enjoy live JioTV HD
+- Enjoy live JioTV
 - Starring repo would be nice whilst forking
-
-### Disclaimer
-
-This app is not officially commissioned/supported by Jio. The trademark "Jio" is registered by "Reliance Corporate IT Park Limited (RCITPL)"
-
-### Contribute
-
-Feel free to leave feedbacks, raise issues and submit pull requests
